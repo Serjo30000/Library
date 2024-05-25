@@ -1,0 +1,831 @@
+.auth-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-login-card{
+    padding: 3rem;
+    width: 50%;
+}
+
+.auth-login-h{
+    margin: auto;
+    font-size: 32px;
+}
+
+.auth-login-form{
+    display: flex; 
+    flex-direction: column;
+}
+
+.auth-login-form-control{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.auth-login-form-row{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.auth-login-form-row-link{
+    width: 70%;
+    font-size: 16px;
+}
+
+.auth-login-form-row-button{
+    align-self: end;
+    width: 20%;
+    font-size: 16px;
+}
+
+.admin-panel{
+    display: flex; 
+    justify-content: center;
+}
+
+.admin-panel-row{
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.admin-panel-row-button{
+    margin-bottom: 3rem;
+    width: 40%;
+    font-size: 16px;
+}
+
+.registration-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.registration-container-card{
+    padding: 3rem;
+    width: 50%;
+}
+
+.registration-container-h{
+    margin: auto;
+    font-size: 32px;
+}
+
+.registration-container-form{
+    display: flex; 
+    flex-direction: column;
+}
+
+.registration-container-form-control{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.registration-container-form-row{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 1rem;
+}
+
+.registration-container-form-row_link{
+    width: 50%;
+    font-size: 16px;
+}
+
+.registration-container-form-row-button{
+    align-self: end;
+    width: 40%;
+    font-size: 16px;
+}
+
+.library-row{
+    margin-top: 2rem;
+}
+
+.genre-bar-item{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.genre-bar-item:hover {
+    background-color: #212529;
+    border-color: #dee2e6;
+    color: #ffffff;
+}
+
+.genre-bar-item.active{
+    background-color: #212529;
+    border-color: #dee2e6;
+}
+
+.book-list-row{
+    display: flex;
+}
+
+.book-item-col{
+    margin-bottom: 3rem;
+}
+
+.book-item-col-card{
+    width: 90%; 
+    border-color: #dee2e6;
+    background-color: #fbfbfb;
+    cursor: pointer;
+}
+
+.book-item-col-card:hover {
+    opacity: 0.75;
+}
+
+.book-item-col-card-image{
+    width: 100%;
+    height: 300px;
+}
+
+.book-item-col-card-block{
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.book-item-col-card-block-fio{
+    color: #000000;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.book-item-col-card-block-name-book{
+    font-size: 16px;
+}
+
+.book-item-col-card-block-grade{
+    display: flex; 
+    align-items: center;
+}
+
+.book-item-col-card-block-grade-number{
+    font-size: 16px;
+}
+
+.book-item-col-card-block-grade-image{
+    height: 20px;
+    width: 20px;
+}
+
+.book-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.book-container-row{
+    margin-top: 2em; 
+    display: flex;
+}
+
+.book-container-row-image{
+    width: 90%;
+    height: 600px;
+}
+
+.book-container-row-option{
+    display: flex; 
+    justify-content: start;
+}
+
+.book-container-row-option-h{
+    font-size: 32px;
+}
+
+.book-container-row-option-grade{
+    margin-top: 3rem; 
+    display: flex; 
+    align-items: center;
+}
+
+.book-container-row-option-grade-number{
+    font-size: 20px;
+}
+
+.book-container-row-option-grade-image{
+    height: 20px;
+    width: 20px;
+}
+
+.book-container-row-option-text{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.book-container-row-active{
+    display: flex; 
+    justify-content: center;
+}
+
+.book-container-row-active-form{
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.book-container-row-active-form-control{
+    width: 100%; 
+    height: 50px;
+    font-size: 16px;
+}
+
+.book-container-row-active-form-button{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.book-container-block{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+
+.book-container-block-button{
+    margin-top: 3rem;
+    font-size: 16px;
+    width: 20%;
+    height: 50px;
+}
+
+.book-container-row-col{
+    display: flex; 
+    justify-content: center;
+}
+
+.book-container-row-col-form{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.book-container-row-col-form-select{
+    margin-top: 3rem;
+    width: 60%; 
+    height: 50px;
+    font-size: 16px;
+}
+
+.book-container-row-col-form-control{
+    margin-top: 3rem;
+    font-size: 16px;
+    width: 100%; 
+    height: 200px;
+}
+
+.book-container-row-col-form-button{
+    margin-top: 3rem;
+    width: 60%; 
+    height: 50px;
+    font-size: 16px;
+}
+
+.book-container-row-comment{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+}
+
+.book-container-row-comment-list-group{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 3rem;
+    width: 50%;
+}
+
+.book-container-row-comment-list-group-h{
+    font-size: 32px;
+}
+
+.book-container-row-comment-list-group-head{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.book-container-row-comment-list-group-head-text{
+    font-size: 16px;
+}
+
+.book-container-row-comment-list-group-text{
+    font-size: 16px;
+}
+
+.basket-item{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.basket-item-text{
+    width: 10%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket-form{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 3rem;
+}
+
+.basket-form-sum-price{
+    justify-content: center; 
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.basket-form-button{
+    align-self: end;
+    font-size: 16px;
+    width: 20%;
+    height: 50px;
+}
+
+.local-book-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.local-book-form-element-index{
+    width: 10%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.local-book-form-element{
+    width: 10%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.local-book-form-element-control{
+    width: 10%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.payment-container-card{
+    padding: 3rem;
+    width: 50%;
+}
+
+.payment-container-card-h{
+    margin: auto;
+    font-size: 32px;
+}
+
+.payment-container-card-form{
+    display: flex; 
+    flex-direction: column;
+}
+
+.payment-container-card-form-control{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+.payment-container-card-row{
+    display: flex; 
+    justify-content: center; 
+    margin-top: 1rem;
+}
+
+.payment-container-card-row-link{
+    width: 50%;
+    font-size: 16px;
+}
+
+.payment-container-card-row-button{
+    align-self: end;
+    width: 40%;
+    font-size: 16px;
+}
+
+.account-item{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.account-item-text{
+    width: 7.69%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.rental-item-form{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.rental-item-form-text-index{
+    width: 7.69%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rental-item-form-text{
+    width: 7.69%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rental-item-form-button{
+    width: 7.69%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rental-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.rental-container-row{
+    margin-top: 2rem; 
+    display: flex;
+}
+
+.rental-container-row-image{
+    width: 90%;
+    height: 600px;
+}
+
+.rental-container-row-option{
+    display: flex; 
+    justify-content: start;
+}
+
+.rental-container-row-option-h{
+    font-size: 32px;
+}
+
+.rental-container-row-option-grade{
+    margin-top: 2rem;
+    display: flex; 
+    align-items: center;
+}
+
+.rental-container-row-option-grade-number{
+    font-size: 20px;
+}
+
+.rental-container-row-option-grade-image{
+    height: 20px;
+    width: 20px;
+}
+
+.rental-container-row-option-text{
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.rental-container-button{
+    margin-top: 3rem;
+    width: 20%;
+    height: 50px;
+}
+
+.basement-container-up{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 100px;
+}
+
+.basement-container-body{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 600px;
+}
+
+.basement-container-body-left{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.basement-container-body-left-h{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    text-align: center;
+    font-size: 32px;
+    width: 80%; 
+    height: 100px; 
+    color: #f8f9fa;
+}
+
+.basement-container-body-left-text{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    text-align: left;
+    font-size: 24px;
+    width: 80%; 
+    height: 500px; 
+    color: #f8f9fa;
+}
+
+.basement-container-body-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.basement-container-body-right-h{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    text-align: center;
+    font-size: 32px;
+    width: 80%; 
+    height: 100px; 
+    color: #f8f9fa;
+}
+
+.basement-container-body-right-link{
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+    text-align: center;
+    width: 80%; 
+    height: 250px;
+}
+
+.basement-container-body-right-link-text{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    width: 33.3%; 
+    font-size: 24px; 
+    color: #f8f9fa; 
+    cursor: pointer;
+}
+
+.basement-container-body-right-link-text:hover{
+    color: #dee2e6;
+}
+
+.basement-container-body-right-link-text-image{
+    width: 50%;
+    height: 75px;
+}
+
+.nav-bar-link{
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-bar-link-nav{
+    width: 50%;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar-link-nav-button{
+    font-size: 16px;
+    margin-left: 1rem;
+    height: 50px;
+    width: 25%;
+}
+
+.admin-statistic-row{
+    margin-top: 2rem;
+}
+
+.admin-statistic-buy-block{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.admin-top{
+    margin-top: 2rem;
+}
+
+.admin-button-create{
+    align-self: center;
+    width: 20%;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 2rem;
+}
+
+.admin-item{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.admin-item-author{
+    white-space: normal;
+    word-break: break-all;
+    width: 12.5%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-author-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 12.5%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-book {
+    white-space: normal;
+    word-break: break-all;
+    width: 11.11%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-book-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 11.11%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-genre {
+    white-space: normal;
+    word-break: break-all;
+    width: 20%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-genre-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 20%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-grade {
+    white-space: normal;
+    word-break: break-all;
+    width: 16.66%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-grade-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 16.66%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-publisher {
+    white-space: normal;
+    word-break: break-all;
+    width: 16.66%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-publisher-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 16.66%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-rental {
+    white-space: normal;
+    word-break: break-all;
+    width: 12.5%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-rental-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 12.5%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-user {
+    white-space: normal;
+    word-break: break-all;
+    width: 9.09%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-item-user-button {
+    white-space: normal;
+    word-break: break-all;
+    width: 9.09%;
+    height: 50px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
